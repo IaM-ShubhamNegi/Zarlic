@@ -1,0 +1,27 @@
+
+
+.scroll__card {
+margin: 1.12rem;
+max-width: 180px;
+cursor: pointer;
+}
+
+.scroll__cardimg {
+  min-width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 5px solid #000;
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+}
+
+.scroll__cardtext {
+  font-weight: 500;
+  font-size: 2rem;
+  text-align: center;
+  margin: 1rem 0 0 0;
+  inline-size: 180px;
+  overflow-wrap: break-word;
+  
+}

@@ -1,0 +1,267 @@
+.ourstory {
+  position: relative;
+  height: calc(100vh - 6rem);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ImgBg {
+  width: 100%;
+  aspect-ratio: 16/9;
+  filter: brightness(0.4);
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -20;
+}
+
+.ourstory_base {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #ccff00;
+}
+
+.ourstory_heading {
+  font-weight: 900;
+  font-size: 6rem;
+  margin: 0;
+  padding: 0;
+}
+
+.ourstory_para {
+  font-weight: 600;
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.meal {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+
+  padding: 10px 0;
+}
+
+.meal_base {
+  height: calc(100vh - 120px);
+  width: calc(100% - 120px);
+  overflow: hidden;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.meal_columnOne {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.meal_para1,
+.meal_para2 {
+  font-weight: 800;
+  font-size: 2.2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.meal_para2 {
+  color: #ccff00;
+  text-shadow: 1px 1px 0px #000;
+}
+
+.meal_para3 {
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin: 0;
+  padding-top: 50px;
+}
+
+.meal_columnTwo {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quality {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  color: #ccff00;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quality_columnOne {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.qualityImg {
+  filter: brightness(1);
+}
+
+.quality_base {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+}
+
+.quality_para1 {
+  font-weight: 800;
+  font-size: 3rem;
+  margin: 0;
+  padding: 5px;
+}
+
+.quality_para2 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 0;
+  width: 70%;
+}
+
+.passion {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  padding: 10px 0;
+}
+
+.passionImg {
+  padding: 150px 0 0 50px;
+}
+
+.passion_base {
+  height: calc(100vh - 120px);
+  width: calc(100% - 120px);
+  overflow: hidden;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.passion_columnOne {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.passion_para1,
+.passion_para2 {
+  font-weight: 800;
+  font-size: 2.2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.passion_para2 {
+  color: #ccff00;
+  text-shadow: 1px 1px 0px #000;
+}
+
+.passion_para3 {
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin: 0;
+  padding-top: 50px;
+}
+
+.passion_columnTwo {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pride {
+  display: flex;
+  height: 100vh;
+  background: #0a0a0a;
+  overflow: hidden;
+  border-bottom: 3px solid #ccff00;
+  padding: 10px 0;
+}
+
+.pride_base {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pride_para1 {
+  font-weight: 800;
+  font-size: 5rem;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+.pride_para2 {
+  font-weight: 800;
+  font-size: 4rem;
+  color: black;
+  margin: 0;
+  padding: 0;
+
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+.pride_para3 {
+  font-weight: 800;
+  font-size: 4rem;
+  color: #ccff00;
+  margin: 0;
+  padding: 0;
+}
+.pride_para4 {
+  font-weight: 800;
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+  width: 88%;
+  margin-top: 50px;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.animation {
+  opacity: 0;
+  animation-name: animationVis;
+  animation-duration: 0.5s;
+  animation-delay: 0.6s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+}
+
+@keyframes animationVis {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+}

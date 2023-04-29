@@ -1,0 +1,61 @@
+.scroll__body {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+  
+  .left {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    left: 0;
+    top: 32%;
+    background: rgba(0,0,0,0.4);
+    border-radius: 50%;
+    border: none;
+
+  }
+  .right {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    right: 0;
+    top: 32%;
+    background: rgba(0,0,0,0.4);
+    border-radius: 50%;
+    border: none;
+  }
+
+  .right:active, .left:active {
+    transform: scale(0.9);
+  }
+
+  .left svg, 
+  .right svg {
+    width: 20px;
+    height: 40px;
+    fill: #ccff00;
+  }
+
+  .scroll_content {
+    /* width: inherit;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch; */
+
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+
+
+  }

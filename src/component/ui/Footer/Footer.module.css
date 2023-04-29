@@ -1,0 +1,126 @@
+.footer {
+  position: relative;
+  height: 18rem;
+  width: 100vw;
+  background: #0a0a0a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer a,
+.footer p {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.copyright {
+  position: absolute;
+  padding: 0 3vw;
+  bottom: 10px;
+  right: 0;
+}
+
+.copyright p {
+
+  font-weight: 500;
+  font-size: 1.2rem;
+  cursor: text;
+  color: #ccff00;
+}
+
+
+
+.container {
+  display: flex;
+  width: inherit;
+  height: inherit;
+
+}
+
+.columnOne {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25vw;
+  padding: 30px 0;
+}
+.columnOne p {
+  font-weight: 900;
+  font-size: 5rem;
+  color: #ccff00;
+  margin: 0;
+  padding: 0;
+}
+
+.columnTwo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 25vw;
+  padding: 50px 0 30px;
+}
+
+.Head_pera {
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: #ccff00;
+  margin: 0;
+  padding: 0;
+  width: 130px;
+}
+
+.body_pera {
+  color: #88aa00;
+  display: block;
+  width: 130px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 10px;
+}
+.body_pera:hover {
+  color: #ccff00;
+}
+
+
+
+.columnThree {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 25vw;
+  padding: 50px 0 30px;
+}
+
+.columnFour {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25vw;
+  padding: 50px 0 30px;
+}
+
+.columnFour p {
+  width: 120px;
+  font-weight: 600;
+  font-size: 1.5rem;
+  cursor: text;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  width: 120px;
+  
+}
+
+.icons svg {
+  fill: #ccff00;
+  height: 25px;
+  cursor: pointer;
+}
+

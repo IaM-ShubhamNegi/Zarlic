@@ -1,0 +1,113 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.background {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  z-index: -2;
+}
+.background__img {
+  width: 100%;
+  aspect-ratio: 16/9;
+  filter: brightness(0.4);
+}
+
+.menu__body {
+  height: 100vh;
+  background: white;
+  display: flex;
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.menu__sidebar {
+  overflow: scroll;
+  width: 19vw;
+  /* border-right: 2px solid #000; */
+  background: white;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.sidebarContent {
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 20px 0 20px 3vw;
+  cursor: pointer;
+  background: white;
+}
+
+/* .sidebarContent:hover {
+background: rgba(204, 255, 0, 0.3);
+} */
+
+.active {
+  font-weight: 700;
+  /* background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(204,255,0,0.5) 100%); */
+  background:  rgba(204,255,0,0.45);
+  border-right: 5px solid #ccff00;
+}
+
+.menu__selections {
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 3vw;
+  position: relative;
+  width: 77vw;
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.card_body {
+  margin: 10px 0;
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  background: transparent;
+  position: fixed;
+  top: 20px;
+  padding:0 3vw;
+}
+
+.cart button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ccff00;
+  gap: 10px;
+  border: none;
+  border-radius: 25px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  left: 84.3vw;
+}
+
+.cart button p {
+  font-weight: 900;
+  font-size: 1rem;
+  padding: 0;
+  margin: 0;
+}
+
+.cart button svg {
+  display: block;
+  height: 20px;
+  padding: 0;
+  margin: 0;
+}

@@ -1,0 +1,125 @@
+.head {
+  position: fixed;
+  z-index: 11;
+  opacity: 0;
+  animation-name: visibility;
+  animation-duration: 0.3s;
+  animation-delay: 0.2s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+}
+
+@keyframes visibility {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+.hero {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+
+.herobg {
+  width: 100%;
+  aspect-ratio: 16/9;
+  filter: brightness(0.4);
+}
+
+
+
+.hero__content {
+  position: absolute;
+  padding: 0 0 0 40px;
+  top: 25%;
+  height: auto;
+  opacity: 0;
+  animation-name: visibility__content;
+  animation-duration: 0.5s;
+  animation-delay: 0.6s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+}
+
+@keyframes visibility__content {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+.hero__heading {
+  font-weight: 800;
+  font-size: 4rem;
+  color: #ccff00;
+}
+
+.hero__search {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  height: 4rem;
+  width: 100%;
+}
+
+.hero__searchbar {
+  height: inherit;
+  width: inherit;
+  border-radius: 0.25rem;
+  overflow: hidden;
+}
+
+.hero__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
+  font-size: 1.2rem;
+  height: 2.5rem;
+  width: auto;
+  border-radius: 10px;
+  border: none;
+  white-space: nowrap;
+  padding: 12px 16px;
+  cursor: pointer;
+  background: linear-gradient(225deg, #121212, #0f0f0f);
+  color: #ccff00;
+
+}
+
+.hero__btn:hover {
+  background: #ccff00;
+  color: black;
+}
+
+.hero__para {
+  color: #ccff00;
+}
+
+.hero__para a {
+  color: #ccff00;
+  text-decoration: underline;
+}
+
+.cuisine {
+  max-width: 100%;
+  height: fit-content;
+  background-color: white;
+  padding: 25px 40px;
+}
+
+.cuisine__para {
+  margin: 0;
+  font-weight: 800;
+  font-size: 3rem;
+  color: #ccff00;
+  text-shadow: 2px 2px 0px #000;
+}
+

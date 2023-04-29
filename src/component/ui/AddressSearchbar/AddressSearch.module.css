@@ -1,0 +1,72 @@
+.navsearch {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: inherit;
+  height: inherit;
+  background-color: #111;
+}
+
+.underline::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #ccff00;
+  animation-name: underline;
+  animation-timing-function: ease-in;
+  animation-duration: 0.1s;
+  animation-fill-mode: forwards;
+  opacity: 100;
+} 
+
+@keyframes underline {
+
+  0%{opacity: 0;}
+  100%{opacity: 100%; animation-fill-mode: none;}
+
+  
+}
+
+.navsearch svg {
+  display: block;
+  padding-left: 20px;
+  padding-right: 10px;
+  width: 22px;
+  height: 29px;
+  fill: #ccff00;
+
+}
+
+.input{
+  border: none;
+  width: 100%;
+  margin-left: 0;
+  margin-right: auto;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #ccff00;
+  background-color: #111;
+}
+
+.input::placeholder {
+  color: #ccff0093;
+}
+
+.input:focus,
+.input:active {
+  outline: none;
+}
+
+.address {
+  padding: 0;
+  margin: 0 25px;
+  border: 0;
+  color: #ccff00;
+  font-weight: 400;
+  font-size: 1.2rem;
+  background: transparent;
+  cursor: pointer;
+}

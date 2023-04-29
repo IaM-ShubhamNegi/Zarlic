@@ -1,0 +1,46 @@
+.location {
+  display: flex;
+  height: calc(100vh - 96px);
+  border-bottom: 2px solid #ccff00;
+  border-top: 2px solid #ccff00;
+}
+.location_data {
+  width: 50%;
+  background: #0a0a0a;
+  color: #ccff00;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.location_brand {
+    font-weight: 800;
+    font-size: 6rem;
+    margin: 0;
+    padding: 50px 0 40px;
+}
+
+.location_info {
+    display: flex;
+    flex-direction: column;
+}
+
+.location_para {
+    font-weight: 600;
+    font-size: 1.5rem;
+    display: flex;
+    
+}
+
+.location_para svg {
+    display: block;
+    height: 30px;
+    fill: #ccff00;
+    padding-right: 10px;
+    
+}
+
+.location_map {
+  width: 50%;
+}

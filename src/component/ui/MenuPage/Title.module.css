@@ -1,0 +1,39 @@
+.card__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: white;
+  max-width: 100vw;
+  margin: 0 0 10px 0;
+
+}
+
+.card__close {
+    border-bottom: 2px solid #000;
+}
+
+.card__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+
+.underline {
+  content: "";
+  margin-left: 40px;
+  height: 2px;
+  width: 70vw;
+  background-color: #000;
+}
+
+.card__title p {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.card__arrow {
+  width: 1.5rem;
+  height: 1.5rem;
+}

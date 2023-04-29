@@ -1,0 +1,55 @@
+.intro_section {
+    position: relative;
+    height: calc(100vh - 6rem);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .ImgBg {
+    width: 100%;
+    aspect-ratio: 16/9;
+    filter: brightness(0.2);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -20;
+  }
+  
+  .intro_base {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #ccff00;
+  }
+  
+  .intro_heading {
+    font-weight: 900;
+    font-size: 6rem;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .intro_para {
+    width: 70%;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 25px 3vw;
+    text-align: center;
+  }
+
+  .feedback_section {
+    position: relative;
+    height: 120vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
