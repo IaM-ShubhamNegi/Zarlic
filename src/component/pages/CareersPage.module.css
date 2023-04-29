@@ -1,0 +1,123 @@
+.career_join {
+    position: relative;
+  height: calc(100vh - 96px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.ImgBg {
+  width: 100%;
+  aspect-ratio: 16/9;
+  filter: brightness(0.15);
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -20;
+}
+
+.ocareer_join_base{
+
+  position: relative;
+  height: calc(100vh - 96px);
+  color: #ccff00;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+}
+
+.career_join_heading {
+  font-weight: 800;
+  font-size: 6rem;
+  margin: 0;
+  padding: 50px 0;
+}
+
+.career_join_para {
+  font-weight: 600;
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.career_apply {
+  height: 100vh;
+  padding: 25px 0;
+}
+
+.career_apply_heading {
+  font-weight: 800;
+  font-size: 4rem;
+  margin: 0;
+  padding: 0 0 25px 3vw;
+}
+.career_apply_base {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.career_apply_body {
+  height: calc(100vh - 120px);
+  width: calc(100% - 120px);
+  overflow: hidden;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.career_apply_cloumnOne {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.career_apply_cloumnTwo {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.career_apply_paraOne {
+  font-weight: 800;
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+}
+.career_apply_parahighlight {
+  color: #ccff00;
+  text-shadow: 1px 1px 0px #000;
+}
+
+.career_apply_paraTwo {
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.career_apply_Btn {
+    color: #000;
+    background: transparent;
+    display: block;
+    border-radius: 25px;
+    border: 2px solid #0a0a0a;
+    font-weight: 700;
+    font-size: 1.5rem;
+    width: 180px;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    margin: 0;
+    cursor: pointer;
+}
+
+.career_apply_Btn:hover {
+
+    color: #ccff00;
+    background: #0a0a0a;
+
+}

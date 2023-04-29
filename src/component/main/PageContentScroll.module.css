@@ -1,0 +1,143 @@
+.page {
+  position: relative;
+  max-width: 100%;
+  height: fit-content;
+  background: #0a0a0a;
+  padding: 25px 40px;
+}
+
+.PageContent {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 6rem);
+}
+
+.left {
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  background: #0a0a0a;
+  border-radius: 50%;
+  border: none;
+  z-index: 50;
+}
+
+.right {
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  background: #0a0a0a;
+  border-radius: 50%;
+  border: none;
+  z-index: 50;
+}
+
+.right:active,
+.left:active {
+  transform: scale(0.9);
+}
+
+.left svg,
+.right svg {
+  width: 20px;
+  height: 40px;
+  fill: #ccff00;
+}
+
+.scrollContent {
+  display: flex;
+  align-items: center;
+  width: 1200px;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  height: 550px;
+  background: transparent;
+  min-width: 100%;
+  overflow: hidden;
+}
+
+.ImgBg {
+  width: 100%;
+  aspect-ratio: 16/9;
+  filter: brightness(0.2);
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 0;
+}
+
+.base {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #ccff00;
+  z-index: 1;
+}
+
+.heading {
+  font-weight: 900;
+  font-size: 6rem;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.para {
+  font-weight: 600;
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 1100px;
+}
+
+.exploreBtn_body {
+  position: relative;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+
+.exploreBtn {
+  position: relative;
+  height: 60px;
+  width: 200px;
+  border-radius: 500px;
+  border: none;
+  white-space: nowrap;
+  padding: 12px 16px;
+  background: #ccff00;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.exploreBtn_body:hover .exploreBtn{
+  width: 300px;
+}
+
+.exploreBtn_pera {
+  position: absolute;
+  font-weight: 600;
+  font-size: 2.5rem;
+  cursor: pointer;
+  color: black;
+}
