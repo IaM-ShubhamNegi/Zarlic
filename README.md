@@ -12,6 +12,10 @@ Welcome to Zarlic, a fully functional online food ordering system for a restaura
 - **Form Authentication:** Zarlic implements secure form authentication to protect user data and ensure a safe online ordering experience.
 - **CSS Animation:** The project incorporates visually appealing CSS animations, enhancing the overall user interface and creating an engaging experience.
 
+## Working Demo
+
+Check out the live demo of Zarlic [here](https://zarlic-shubham.netlify.app/).
+
 ## Run Locally
 
 Clone the project
