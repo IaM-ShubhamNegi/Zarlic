@@ -2,6 +2,7 @@
 
 Welcome to Zarlic, a fully functional online food ordering system for a restaurant. This project showcases my expertise as a web developer. It is developed using React.js, Redux Toolkit, and integrates with the Google Maps API to provide a seamless and user-friendly experience for customers.
 
+![project-zarlic](https://github.com/IaM-ShubhamNegi/Zarlic/assets/123191025/a7f75ef0-6fe5-4641-ab88-5bf8bc92f489)
 
 ## Features
 
